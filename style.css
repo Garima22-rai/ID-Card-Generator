@@ -8,23 +8,18 @@ body, html {
   justify-content: center;
   align-items: center;
 }
-
 .container {
   width: 100%;
   max-width: 900px;
   padding: 20px;
 }
-
-/* Steps */
 .step {
   display: none;
   text-align: center;
 }
-
 .step.active {
   display: block;
 }
-
 input, button {
   display: block;
   margin: 10px auto;
@@ -34,7 +29,6 @@ input, button {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
 button {
   background: #004aad;
   border: none;
@@ -43,19 +37,15 @@ button {
   cursor: pointer;
   transition: transform 0.3s;
 }
-
 button:hover {
   transform: scale(1.05);
 }
-
-/* ID Card */
 .idcard-page {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-
 .id-card {
   display: flex;
   width: 100%;
@@ -66,7 +56,6 @@ button:hover {
   background: white;
   overflow: hidden;
 }
-
 .card-left {
   width: 35%;
   display: flex;
@@ -74,7 +63,6 @@ button:hover {
   align-items: center;
   background: #004aad;
 }
-
 .card-left .photo {
   width: 120px;
   height: 150px;
@@ -82,36 +70,30 @@ button:hover {
   border: 2px solid #fff;
   overflow: hidden;
 }
-
 .card-left .photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .card-right {
   width: 65%;
   padding: 20px;
   text-align: left;
   color: #004aad;
 }
-
 .card-right h2 {
   margin: 0 0 10px 0;
   font-size: 22px;
   text-align: center;
 }
-
 .card-right p {
   margin: 5px 0;
   font-size: 16px;
 }
-
 .download-buttons {
   margin-top: 20px;
   text-align: center;
 }
-
 .download-buttons button {
   margin: 5px;
   background: #004aad;
@@ -121,12 +103,9 @@ button:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .download-buttons button:hover {
   transform: scale(1.05);
 }
-
-/* Responsive */
 @media (max-width: 768px) {
   .id-card {
     flex-direction: column;
@@ -146,3 +125,4 @@ button:hover {
     font-size: 14px;
   }
 }
+
